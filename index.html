@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta name="theme-color" content="#f5f2ea" />
+  <title>TestMatch — Shidduch Assistant Design Lab</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div>
+      <div class="eyebrow">Design lab</div>
+      <h1>TestMatch</h1>
+      <p>Four ways to organize the full shidduch process</p>
+    </div>
+    <div class="bh">ב״ה</div>
+  </header>
+
+  <nav class="variant-nav" aria-label="Design experiments">
+    <button data-view="ledger" class="active">1 · Ledger</button>
+    <button data-view="case">2 · Case File</button>
+    <button data-view="people">3 · Connections</button>
+    <button data-view="today">4 · Today</button>
+  </nav>
+
+  <main id="app" class="app-shell" aria-live="polite"></main>
+
+  <nav class="bottom-nav">
+    <button data-view="today">Home</button>
+    <button data-view="people">People</button>
+    <button data-view="case">Matches</button>
+    <button data-view="ledger">Activity</button>
+  </nav>
+
+  <script src="app.js"></script>
+</body>
+</html>
